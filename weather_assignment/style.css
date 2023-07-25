@@ -1,0 +1,46 @@
+body{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+#dateInput{
+    font-size: 1rem;
+    padding: 0.4rem 0.2rem;
+    width: 90%;
+    max-width: 20rem;
+}
+
+.instructions{
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.or{
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.weather-btns{
+    margin: 1.5rem auto;
+    width: fit-content;
+}
+
+.weather-btns button{
+    outline: none;
+    border: none;
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(15, 106, 241);
+    padding: 0.4rem 0.6rem;
+}
+
+#output{
+    font-size: 1.4rem;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    width: fit-content;
+    padding: 0.5rem;
+    margin: auto;
+}
